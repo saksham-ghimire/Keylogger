@@ -81,3 +81,5 @@ def on_release(key):
         print('Killed_Process')
         os.kill(current_id,signal.SIGTERM)
         return False
+
+# Call the key_func() function here with provided time period (on seconds) 
